@@ -1,5 +1,8 @@
 #register-container {
       width: 380px;
+      /* width: 90%; */
+      /* height: 500px; */
+
       padding: 30px;
       box-sizing: border-box;
 }
