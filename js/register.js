@@ -15,4 +15,5 @@ $('button#register').click(function() {
       $('input#email').val('');
       $('input#password').val('');
       $('input#confirm-password').val('');
+      $('input#zip').val('');
 });
