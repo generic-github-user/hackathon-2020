@@ -2,3 +2,7 @@
   display: block;
   margin: 30px;
 }
+
+#submit-report-button {
+  width: 80%;
+}
