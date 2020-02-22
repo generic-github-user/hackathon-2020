@@ -1,0 +1,36 @@
+#register-container {
+      width: 380px;
+      padding: 30px;
+      box-sizing: border-box;
+}
+
+body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+button#register {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+}
+
+a {
+      text-decoration: none;
+      font-size: 125%;
+}
+
+h4 {
+      margin: 0px;
+      width: 100%;
+      display: inline;
+}
+
+img#icon {
+      width: 70px;
+      display: inline;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 30px;
+}
