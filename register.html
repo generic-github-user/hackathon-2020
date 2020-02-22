@@ -13,6 +13,8 @@
       <!-- Other stylesheets -->
       <link rel="stylesheet" href="./css/register.css">
       <link rel="stylesheet" href="./css/stylesheet.css">
+
+      <link rel="stylesheet" href="./lib/getmdl-select/getmdl-select.min.css">
 </head>
 
 <body>
@@ -45,6 +47,22 @@
 
             <!-- Add school selection -->
 
+            <!-- Simple Select with arrow -->
+            <div class="mdl-textfield mdl-js-textfield getmdl-select">
+              <input type="text" value="" class="mdl-textfield__input" id="user-type-dropdown" readonly>
+              <input type="hidden" value="" name="user-type-dropdown">
+              <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+              <label for="user-type-dropdown" class="mdl-textfield__label">I am a . . .</label>
+              <ul for="user-type-dropdown" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                  <li class="mdl-menu__item" data-val="student">Student</li>
+                  <li class="mdl-menu__item" data-val="parent">Parent</li>
+                  <li class="mdl-menu__item" data-val="counselor">Counselor</li>
+                  <li class="mdl-menu__item" data-val="teacher">Teacher</li>
+                  <li class="mdl-menu__item" data-val="admin">Administrator</li>
+                  <li class="mdl-menu__item" data-val="mhp">Mental Health Professional</li>
+              </ul>
+            </div>
+
             <!-- Register button -->
             <button id="register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                   Register
@@ -62,6 +80,8 @@
       <!-- Other scripts -->
       <script src="./lib/jquery/jquery-3.4.1.min.js"></script>
       <script src="./js/register.js"></script>
+
+      <script src="./lib/getmdl-select/getmdl-select.min.js"></script>
 </body>
 
 </html>
