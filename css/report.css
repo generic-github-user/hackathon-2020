@@ -6,3 +6,7 @@
 #submit-report-button {
   width: 80%;
 }
+
+i.material-icons {
+  font-size: 125%;
+}
