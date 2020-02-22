@@ -1,0 +1,18 @@
+#main-content > * {
+  /* display: inline-block; */
+  margin: 30px;
+}
+
+div#slider-container {
+  width: 70%;
+  float: left;
+}
+
+#main-content > button {
+  /* width: 30px;
+  height: 30px; */
+
+  float: right;
+  background-color: lime;
+  margin-top: 10px;
+}
