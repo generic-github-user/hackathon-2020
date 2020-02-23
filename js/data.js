@@ -16,7 +16,7 @@ function generateGraph() {
             options: {
                   title: {
                         display: true,
-                        text: 'Chart.js Scatter Chart'
+                        text: 'Grade & Self-Reported Mood'
                   },
                   scales: {
                         xAxes: [{
