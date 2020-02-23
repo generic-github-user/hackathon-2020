@@ -27,8 +27,10 @@ a {
 h4 {
       margin: 0px;
       /* width: 100%; */
-      display: inline;
+      /* display: inline; */
       vertical-align: middle;
+      /* display: inline; */
+      text-align: center;
 }
 
 img#icon {
@@ -38,4 +40,8 @@ img#icon {
       margin-right: 20px;
       margin-bottom: 30px;
       vertical-align: middle;
+}
+
+img#logo {
+      width: 100%;
 }
