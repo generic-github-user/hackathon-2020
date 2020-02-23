@@ -1,4 +1,4 @@
-firebase.firestore().collection('users').where('type', '==', 'Student').get().then(function(student_data) {
+firebase.firestore().collection('users').where('type', '==', 'student').get().then(function(student_data) {
       student_data.forEach(function(student) {
             var info = student.data();
             var table_row = $('<tr>');
