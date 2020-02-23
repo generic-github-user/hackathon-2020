@@ -27,7 +27,7 @@ window.onload = function() {
 
                                           var scatterChartData = {
                                                 datasets: [{
-                                                      label: 'My First dataset',
+                                                      label: 'Students',
                                                       borderColor: window.chartColors.red,
                                                       backgroundColor: color(window.chartColors.red).alpha(0.2).rgbString(),
                                                       data: data
@@ -42,6 +42,20 @@ window.onload = function() {
                                                             display: true,
                                                             text: 'Chart.js Scatter Chart'
                                                       },
+                                                      scales: {
+                                                            xAxes: [{
+                                                                  scaleLabel: {
+                                                                        display: true,
+                                                                        labelString: 'Average Grade'
+                                                                  }
+                                                            }],
+                                                            yAxes: [{
+                                                                  scaleLabel: {
+                                                                        display: true,
+                                                                        labelString: 'Positivity'
+                                                                  }
+                                                            }]
+                                                      }
                                                 }
                                           });
 
