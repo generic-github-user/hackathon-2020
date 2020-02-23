@@ -73,10 +73,13 @@ window.onload = function() {
                                           // )
 
                                           student_data = student.data();
-                                          var concern = Math.round(100 - student_data.average_score);
+                                          var concern = Math.round(100 - student_data.average_score) + Math.random() * 25;
+
+                                          a = student_data.average_score;
+                                          b = concern;
                                           data.push({
-                                                x: student_data.average_score | 5,
-                                                y: concern | 5
+                                                x: a != null ? a : Math.random() * 100,
+                                                y: b != null ? b : Math.random() * 100
                                           });
                                     }
                               );
