@@ -7,7 +7,7 @@ $('button#register').click(function() {
       firebase.auth().createUserWithEmailAndPassword(email_address, password)
             .then(function(result) {
                   var userId = firebase.auth().currentUser.uid
-                  var user_type = $('input#user-type').val()
+                  var user_type = $('input#user-type-dropdown').val();
                   if (user_type == undefined) {
                         user_type = 'Student';
                   }
