@@ -2,7 +2,6 @@
       width: 380px;
       /* width: 90%; */
       /* height: 500px; */
-
       padding: 30px;
       box-sizing: border-box;
 }
@@ -27,7 +26,8 @@ a {
 h4 {
       margin: 0px;
       width: 100%;
-      display: inline;
+      /* display: inline; */
+      text-align: center;
 }
 
 img#icon {
@@ -36,4 +36,8 @@ img#icon {
       float: left;
       margin-right: 20px;
       margin-bottom: 30px;
+}
+
+img#logo {
+      width: 100%;
 }
