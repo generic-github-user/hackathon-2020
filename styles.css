@@ -249,3 +249,9 @@ _:-ms-input-placeholder, :root .demo-graph {
       width: 180px;
       margin: 0;
 }
+
+/* nav.mdl-navigation>a[href*="alerts"],
+nav.mdl-navigation>a[href*="students"],
+nav.mdl-navigation>a[href*="data"] {
+      visibility: hidden;
+} */
