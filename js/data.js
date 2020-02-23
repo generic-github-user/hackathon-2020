@@ -16,7 +16,7 @@ function generateGraph() {
             options: {
                   title: {
                         display: true,
-                        text: 'Grade & Self-Reported Mood'
+                        text: 'Grade & Risk Level'
                   },
                   scales: {
                         xAxes: [{
@@ -28,7 +28,7 @@ function generateGraph() {
                         yAxes: [{
                               scaleLabel: {
                                     display: true,
-                                    labelString: 'Positivity'
+                                    labelString: 'Concern level'
                               }
                         }]
                   }
@@ -73,7 +73,7 @@ window.onload = function() {
                                           // )
 
                                           student_data = student.data();
-                                          var concern = Math.round(100 - student_data.average_score) + Math.random() * 25;
+                                          var concern = Math.round(100 - student_data.average_score) + Math.random() * 100;
 
                                           a = student_data.average_score;
                                           b = concern;
