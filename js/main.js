@@ -1,6 +1,7 @@
 $('#submit-feeling-button').click(() => {
       var vibe = parseInt($('#mood-slider').val());
-      $('#vibe-container').css('visibility', 'hidden');
+      // $('#vibe-container').css('visibility', 'hidden');
+      $('#vibe-container').slideUp();
 
       firebase.firestore().collection("vibes").add({
                   student: firebase.auth().currentUser.uid,
